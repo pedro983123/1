@@ -1,4 +1,6 @@
-    function totalSupply() external view returns (uint256);
+  pragma solidity ^0.6.12;
+  interface IERC20 {
+  function totalSupply() external view returns (uint256);
 
     /**
      * @dev Returns the amount of tokens owned by `account`.
